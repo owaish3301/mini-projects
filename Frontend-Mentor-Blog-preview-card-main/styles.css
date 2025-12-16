@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 0;
+    background-color: hsl(47, 88%, 63%);
+    display: grid;
+    place-items: center;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+}
+
+main{
+    border: 1px solid black;
+    margin-top: 50px;
+    border-radius: 25px;
+    width: 85vw;
+    background-color: white;
+    box-shadow: 7px 3px 0px 0px rgba(0,0,0,0.75);
+}
+
+#top-card-img{
+    width: 88%;
+    border-radius: 12px;
+    margin: 6%;
+}
+
+.bottom-section{
+    width: 88%;
+    margin: 6%;
+    margin-top: 0;
+}
+
+#tag{
+    background-color: hsl(47, 88%, 63%) ;
+    width:min-content;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+#date-info, .blog-header{
+    margin-bottom: 15px;
+}
+
+.blog-header{
+    font-weight: 800;
+}
+
+#hover-effect:hover {
+    color:hsl(47, 88%, 63%) ;
+}
+
+.blog-content p {
+    opacity: 0.5;
+    margin-bottom: 35px;
+}
+
+.author-info{
+    display: flex;
+    font-weight: 800;
+}
+
+.author-info img {
+    margin-right: 20px;
+}
+
+.author-info p{
+    padding: 22px;
+    padding-left: 0;
+}
+
+@media (min-width: 576px){
+    main{
+        width: 35%;
+    }
+}

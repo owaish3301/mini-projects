@@ -1,0 +1,152 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    background-color: hsl(204, 43%, 93%);
+    font-family: "Karla", sans-serif;
+
+}
+
+h2,p,h3,h4{
+    margin: 0;
+    padding: 0;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+.card{
+    height: 80vh;
+    width: 80vw;
+    margin: 50px;
+    box-shadow: -5px 2px 16px 4px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    margin: auto;
+}
+
+.top-card{
+    height: 40%;
+    width: 100%;
+    padding-left: 5%;
+    background-color: white;
+    
+}
+
+
+.bottom-section{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    color: white;
+}
+
+.bottom-left{
+    height: 100%;
+    width: 50%;
+    background-color:hsl(179, 64%, 27%); 
+    text-align: left;
+    padding-left: 5%;
+}
+.bottom-right{
+    height: 100%;
+    width: 50%;
+    background-color: hsl(179, 62%, 43%);
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+#title{
+    color: hsl(179, 62%, 43%);
+    font-size: 2em;
+    padding-top: 35px;
+    margin-bottom: 20px;
+    
+}
+
+#about{
+    color: hsl(71, 73%, 54%);
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#bottom-Left-Title{
+    padding-top: 5%;
+    margin-bottom: 10px;
+}
+
+#dollars29{
+    font-size: 1.5rem;
+    margin-right: 11px;
+
+}
+
+#dollars{
+    opacity: 0.5;
+}
+
+#access{
+    margin-top: 10px;
+}
+
+.signUp{
+    margin-top: 3%;
+    width: 60%;
+    height: 45px;
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 20px 0px rgba(0,0,0,0.75);
+}
+
+button:hover{
+    scale: 105%;
+    background-color: hsl(71, 85%, 38%);
+}
+
+button {
+    cursor: pointer;
+ }
+
+ul{
+    padding-top:3% ;
+    list-style-type: none ;
+}
+
+#why-us{
+    font-size: 1.2rem;
+}
+#first-list-item{
+    margin-top: 2%;
+}
+
+.less-opacity{
+    opacity: 50%;
+}
+
+@media(max-width:576px){
+    .bottom-section{
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .card{
+        height: auto;
+    }
+    .top-card{
+        height: auto;
+    }
+    .bottom-left{
+        width: 100%;
+    }
+    .bottom-right{
+        width: 100%;
+    }
+    .signUp{
+        margin-bottom: 4%;
+    }
+}

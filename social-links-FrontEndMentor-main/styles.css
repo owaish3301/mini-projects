@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    color: white;
+}
+
+p, h2, h3{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background-color:  hsl(0, 0%, 12%);
+    display: grid;
+    place-items: center;
+    font-family: "Inter", sans-serif;
+}
+
+main{
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 11px;
+    min-width: 320px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: grid;
+    place-items: center;
+}
+
+
+.profile-pic{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#jessica{
+    border-radius: 50%;
+    height: 76px;
+}
+
+.about-me{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#address{
+    font-size: 14px;
+    color: hsl(75, 94%, 57%);
+}
+
+.description{
+    margin-bottom: 16px;
+}
+
+
+.buttons-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    border: 0px;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 28%);
+    margin-bottom: 12px;
+    height:40px;
+    width: 85%;
+    margin-left: 7.5%;
+}
+
+#last-button{
+    margin-bottom: 25px;
+}
+
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+}

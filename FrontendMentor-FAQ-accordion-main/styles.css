@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    font-family: "Work Sans", sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h3,h1,p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.background-image{
+    background-image: url("assets/images/background-pattern-mobile.svg");
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.background-color-pink{
+    background-color:  hsl(275, 100%, 97%);
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-card{
+    background-color: white;
+    position:absolute;
+    top: 150px;
+    min-height: 500px;
+    width: 90%;
+    border-radius: 10px;
+    z-index: 1;
+    box-shadow: 2px 2px 30px 8px rgba(0,0,0,0.75);
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.star-icon, .FAQs{
+    margin-right: 20px;
+}
+
+.star-icon{
+    margin-top: 15px;
+}
+
+.FAQs h1 {
+    padding-top: 20px;
+}
+
+#star-icon{
+    height: 35px;
+    width: 35px;
+    padding-top: 10px;
+}
+
+.FAQS-heading{
+    margin-top: 15px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.question-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#icon-plus{
+    cursor: pointer;
+}
+
+.hidden-answer p {
+    display: none;
+}
+
+.answer-para{
+    margin-top: 10px;
+    opacity: 0.5;
+}
+
+.fourth-child{
+    margin-bottom: 15px;
+}
+
+
+@media (min-width:600px){
+    .background-image{
+        background-image: url("assets/images/background-pattern-desktop.svg");
+    }
+    .main-card{
+        width: 40%;
+    }
+
+}
