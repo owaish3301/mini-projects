@@ -9,11 +9,13 @@ available, a live demo link.
 
 ## 📌 Projects Overview
 
-| #   | Project Name                           | Tech Stack    | Live Demo                                                                  | Source Code                                          |
-| --- | -------------------------------------- | ------------- | -------------------------------------------------------------------------- | ---------------------------------------------------- |
-| 1   | clipboard-landing-page-main            | HTML, CSS, JS | 🔗 [live](https://owaish3301.github.io/clipboard-landing-page/)            | 📂 [code](./clipboard-landing-page-main)             |
-| 2   | Frontend-Mentor-Blog-preview-card-main | HTML, CSS, JS | 🔗 [Live](https://owaish3301.github.io/Frontend-Mentor-Blog-preview-card/) | 📂 [Code](./Frontend-Mentor-Blog-preview-card-main/) |
-| 3   | Project Three                          | Node, Express | ❌                                                                         | 📂 Code                                              |
+| #   | Project Name                           | Tech Stack    | Live Demo                                                                  | Source Code                                         |
+| --- | -------------------------------------- | ------------- | -------------------------------------------------------------------------- | --------------------------------------------------- |
+| 1   | clipboard-landing-page-main            | HTML, CSS, JS | 🔗 [Live](https://owaish3301.github.io/clipboard-landing-page/])           | 📂 [Code](./clipboard-landing-page-main)            |
+| 2   | Frontend-Mentor-Blog-preview-card-main | HTML, CSS, JS | 🔗 [Live](https://owaish3301.github.io/Frontend-Mentor-Blog-preview-card/) | 📂 [Code](./Frontend-Mentor-Blog-preview-card-main) |
+| 3   | FrontendMentor-FAQ-accordion-main      | HTML, CSS, JS | 🔗 [Live](https://owaish3301.github.io/FrontendMentor-FAQ-accordion/)      | 📂 [Code](./FrontendMentor-FAQ-accordion-main)      |
+| 4   | Single-price-grid-component-main       | HTML, CSS, JS | 🔗 [Live](https://owaish3301.github.io/Single-price-grid-component/)       | 📂 [Code](./Single-price-grid-component-main)       |
+| 5   | social-links-FrontEndMentor-main       | HTML, CSS, JS | 🔗 [Live](https://owaish3301.github.io/social-links-FrontEndMentor/)       | 📂 [Code](./social-links-FrontEndMentor-main)       |
 
 ---
 
